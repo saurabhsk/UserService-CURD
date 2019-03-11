@@ -47,4 +47,10 @@ public class UserController {
         User userById = userService.getUserById(id);
         return new ResponseEntity<User>(userById,HttpStatus.OK);
     }
+    @GetMapping("/userse/{id}")
+
+    public void removeTrack(@PathVariable int id) {
+        userService.removeById(id);
+
+    }
 }
