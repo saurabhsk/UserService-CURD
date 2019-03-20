@@ -1,0 +1,248 @@
+"2019-03-20 09:09:53,177 INFO  [main] com.stackroute.userservice.UserServiceApplication : Starting UserServiceApplication on IBMWAVE4-SAUKU with PID 4873 (/home/saurabh/Documents/user-service/target/classes started by saurabh in /home/saurabh/Documents/user-service)
+""2019-03-20 09:09:53,184 INFO  [main] com.stackroute.userservice.UserServiceApplication : No active profile set, falling back to default profiles: default
+""2019-03-20 09:09:55,074 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+""2019-03-20 09:09:55,192 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106ms. Found 1 repository interfaces.
+""2019-03-20 09:09:55,797 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ed36b9b4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2019-03-20 09:09:56,382 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+""2019-03-20 09:09:56,438 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+""2019-03-20 09:09:56,439 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.16]
+""2019-03-20 09:09:56,456 INFO  [main] org.apache.catalina.core.AprLifecycleListener : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+""2019-03-20 09:09:56,659 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+""2019-03-20 09:09:56,660 DEBUG [main] org.springframework.web.context.ContextLoader : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+""2019-03-20 09:09:56,660 INFO  [main] org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 3283 ms
+""2019-03-20 09:09:56,916 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+""2019-03-20 09:09:57,137 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+""2019-03-20 09:09:57,198 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2019-03-20 09:09:57,262 INFO  [main] org.hibernate.Version : HHH000412: Hibernate Core {5.3.7.Final}
+""2019-03-20 09:09:57,264 INFO  [main] org.hibernate.cfg.Environment : HHH000206: hibernate.properties not found
+""2019-03-20 09:09:57,491 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+""2019-03-20 09:09:57,677 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2019-03-20 09:09:58,499 INFO  [main] org.hibernate.tool.schema.internal.SchemaCreatorImpl : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@38667005'
+""2019-03-20 09:09:58,502 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2019-03-20 09:09:58,932 DEBUG [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+""2019-03-20 09:09:59,204 INFO  [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+""2019-03-20 09:09:59,216 DEBUG [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+""2019-03-20 09:09:59,269 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2019-03-20 09:09:59,321 DEBUG [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+""2019-03-20 09:09:59,341 DEBUG [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+""2019-03-20 09:09:59,355 DEBUG [main] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+""2019-03-20 09:09:59,594 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+""2019-03-20 09:09:59,598 INFO  [main] com.stackroute.userservice.UserServiceApplication : Started UserServiceApplication in 7.552 seconds (JVM running for 8.559)
+""2019-03-20 09:12:52,572 INFO  [Thread-2] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+""2019-03-20 09:12:52,576 INFO  [Thread-2] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+""2019-03-20 09:12:52,579 INFO  [Thread-2] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+""2019-03-20 09:12:52,592 INFO  [Thread-2] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+""2019-03-20 09:12:56,597 INFO  [main] com.stackroute.userservice.UserServiceApplication : Starting UserServiceApplication on IBMWAVE4-SAUKU with PID 4996 (/home/saurabh/Documents/user-service/target/classes started by saurabh in /home/saurabh/Documents/user-service)
+""2019-03-20 09:12:56,620 INFO  [main] com.stackroute.userservice.UserServiceApplication : No active profile set, falling back to default profiles: default
+""2019-03-20 09:12:58,379 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+""2019-03-20 09:12:58,484 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93ms. Found 1 repository interfaces.
+""2019-03-20 09:12:59,026 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3e693d3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2019-03-20 09:12:59,513 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+""2019-03-20 09:12:59,558 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+""2019-03-20 09:12:59,559 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.16]
+""2019-03-20 09:12:59,575 INFO  [main] org.apache.catalina.core.AprLifecycleListener : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+""2019-03-20 09:12:59,713 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+""2019-03-20 09:12:59,714 DEBUG [main] org.springframework.web.context.ContextLoader : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+""2019-03-20 09:12:59,715 INFO  [main] org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 2858 ms
+""2019-03-20 09:12:59,945 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+""2019-03-20 09:13:00,157 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+""2019-03-20 09:13:00,241 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2019-03-20 09:13:00,328 INFO  [main] org.hibernate.Version : HHH000412: Hibernate Core {5.3.7.Final}
+""2019-03-20 09:13:00,331 INFO  [main] org.hibernate.cfg.Environment : HHH000206: hibernate.properties not found
+""2019-03-20 09:13:00,537 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+""2019-03-20 09:13:00,712 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2019-03-20 09:13:01,551 INFO  [main] org.hibernate.tool.schema.internal.SchemaCreatorImpl : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@10a0d93a'
+""2019-03-20 09:13:01,554 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2019-03-20 09:13:02,024 DEBUG [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+""2019-03-20 09:13:02,259 INFO  [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+""2019-03-20 09:13:02,272 DEBUG [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+""2019-03-20 09:13:02,323 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2019-03-20 09:13:02,369 DEBUG [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+""2019-03-20 09:13:02,392 DEBUG [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+""2019-03-20 09:13:02,409 DEBUG [main] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+""2019-03-20 09:13:02,648 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+""2019-03-20 09:13:02,651 INFO  [main] com.stackroute.userservice.UserServiceApplication : Started UserServiceApplication in 7.287 seconds (JVM running for 8.05)
+""2019-03-20 09:20:44,370 INFO  [http-nio-8080-exec-2] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2019-03-20 09:20:44,371 INFO  [http-nio-8080-exec-2] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+""2019-03-20 09:20:44,373 DEBUG [http-nio-8080-exec-2] org.springframework.web.servlet.DispatcherServlet : Detected StandardServletMultipartResolver
+""2019-03-20 09:20:44,386 DEBUG [http-nio-8080-exec-2] org.springframework.web.servlet.DispatcherServlet : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+""2019-03-20 09:20:44,387 INFO  [http-nio-8080-exec-2] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 13 ms
+""2019-03-20 09:20:44,399 DEBUG [http-nio-8080-exec-2] org.springframework.web.servlet.DispatcherServlet : POST "/api/v1/user", parameters={}
+""2019-03-20 09:20:44,405 DEBUG [http-nio-8080-exec-2] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<com.stackroute.userservice.domain.User> com.stackroute.userservice.controllers.UserController.saveUser(com.stackroute.userservice.domain.User)
+""2019-03-20 09:20:44,509 DEBUG [http-nio-8080-exec-2] org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.stackroute.userservice.domain.User@223d5d52]
+""2019-03-20 09:20:44,634 DEBUG [http-nio-8080-exec-2] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+""2019-03-20 09:20:44,635 DEBUG [http-nio-8080-exec-2] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Writing [com.stackroute.userservice.domain.User@55bb8a5a]
+""2019-03-20 09:20:44,655 DEBUG [http-nio-8080-exec-2] org.springframework.web.servlet.DispatcherServlet : Completed 200 OK
+""2019-03-20 09:21:05,312 DEBUG [http-nio-8080-exec-3] org.springframework.web.servlet.DispatcherServlet : POST "/api/v1/user", parameters={}
+""2019-03-20 09:21:05,313 DEBUG [http-nio-8080-exec-3] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<com.stackroute.userservice.domain.User> com.stackroute.userservice.controllers.UserController.saveUser(com.stackroute.userservice.domain.User)
+""2019-03-20 09:21:05,315 DEBUG [http-nio-8080-exec-3] org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.stackroute.userservice.domain.User@1c8d95f6]
+""2019-03-20 09:21:05,321 DEBUG [http-nio-8080-exec-3] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+""2019-03-20 09:21:05,321 DEBUG [http-nio-8080-exec-3] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Writing [com.stackroute.userservice.domain.User@5377622c]
+""2019-03-20 09:21:05,324 DEBUG [http-nio-8080-exec-3] org.springframework.web.servlet.DispatcherServlet : Completed 200 OK
+""2019-03-20 09:22:06,371 DEBUG [http-nio-8080-exec-6] org.springframework.web.servlet.DispatcherServlet : GET "/api/v1/users", parameters={}
+""2019-03-20 09:22:06,372 DEBUG [http-nio-8080-exec-6] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.List<com.stackroute.userservice.domain.User>> com.stackroute.userservice.controllers.UserController.getAllUsers()
+""2019-03-20 09:22:06,428 INFO  [http-nio-8080-exec-6] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator : HHH000397: Using ASTQueryTranslatorFactory
+""2019-03-20 09:22:06,550 INFO  [http-nio-8080-exec-6] com.stackroute.userservice.controllers.UserController : This is an info message
+""2019-03-20 09:22:06,550 WARN  [http-nio-8080-exec-6] com.stackroute.userservice.controllers.UserController : This is a warn message
+""2019-03-20 09:22:06,551 ERROR [http-nio-8080-exec-6] com.stackroute.userservice.controllers.UserController : This is an error message
+""2019-03-20 09:22:06,557 DEBUG [http-nio-8080-exec-6] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+""2019-03-20 09:22:06,558 DEBUG [http-nio-8080-exec-6] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Writing [[com.stackroute.userservice.domain.User@3bee1c5b, com.stackroute.userservice.domain.User@199da4]]
+""2019-03-20 09:22:06,562 DEBUG [http-nio-8080-exec-6] org.springframework.web.servlet.DispatcherServlet : Completed 200 OK
+""2019-03-20 09:22:50,053 DEBUG [http-nio-8080-exec-7] org.springframework.web.servlet.DispatcherServlet : GET "/api/v1/user", parameters={}
+""2019-03-20 09:22:50,057 WARN  [http-nio-8080-exec-7] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+""2019-03-20 09:22:50,057 DEBUG [http-nio-8080-exec-7] org.springframework.web.servlet.DispatcherServlet : Completed 405 METHOD_NOT_ALLOWED
+""2019-03-20 09:22:50,061 DEBUG [http-nio-8080-exec-7] org.springframework.web.servlet.DispatcherServlet : "ERROR" dispatch for GET "/error", parameters={}
+""2019-03-20 09:22:50,066 DEBUG [http-nio-8080-exec-7] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2019-03-20 09:22:50,075 DEBUG [http-nio-8080-exec-7] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+""2019-03-20 09:22:50,075 DEBUG [http-nio-8080-exec-7] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Writing [{timestamp=Wed Mar 20 09:22:50 IST 2019, status=405, error=Method Not Allowed, message=Request metho (truncated)...]
+""2019-03-20 09:22:50,104 DEBUG [http-nio-8080-exec-7] org.springframework.web.servlet.DispatcherServlet : Exiting from "ERROR" dispatch, status 405
+""2019-03-20 09:23:36,308 DEBUG [http-nio-8080-exec-8] org.springframework.web.servlet.DispatcherServlet : GET "/api/v1/users", parameters={}
+""2019-03-20 09:23:36,309 DEBUG [http-nio-8080-exec-8] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.List<com.stackroute.userservice.domain.User>> com.stackroute.userservice.controllers.UserController.getAllUsers()
+""2019-03-20 09:23:36,312 INFO  [http-nio-8080-exec-8] com.stackroute.userservice.controllers.UserController : This is an info message
+""2019-03-20 09:23:36,318 WARN  [http-nio-8080-exec-8] com.stackroute.userservice.controllers.UserController : This is a warn message
+""2019-03-20 09:23:36,320 ERROR [http-nio-8080-exec-8] com.stackroute.userservice.controllers.UserController : This is an error message
+""2019-03-20 09:23:36,323 DEBUG [http-nio-8080-exec-8] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+""2019-03-20 09:23:36,324 DEBUG [http-nio-8080-exec-8] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Writing [[com.stackroute.userservice.domain.User@7c997f12, com.stackroute.userservice.domain.User@53bc4f91]]
+""2019-03-20 09:23:36,329 DEBUG [http-nio-8080-exec-8] org.springframework.web.servlet.DispatcherServlet : Completed 200 OK
+""2019-03-20 09:27:12,749 INFO  [Thread-2] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+""2019-03-20 09:27:12,751 INFO  [Thread-2] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+""2019-03-20 09:27:12,755 INFO  [Thread-2] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+""2019-03-20 09:27:12,766 INFO  [Thread-2] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+""2019-03-20 09:27:16,538 INFO  [main] com.stackroute.userservice.UserServiceApplication : Starting UserServiceApplication on IBMWAVE4-SAUKU with PID 5673 (/home/saurabh/Documents/user-service/target/classes started by saurabh in /home/saurabh/Documents/user-service)
+""2019-03-20 09:27:16,543 INFO  [main] com.stackroute.userservice.UserServiceApplication : No active profile set, falling back to default profiles: default
+""2019-03-20 09:27:18,096 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+""2019-03-20 09:27:18,183 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75ms. Found 1 repository interfaces.
+""2019-03-20 09:27:18,693 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1a2029c4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2019-03-20 09:27:19,204 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+""2019-03-20 09:27:19,243 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+""2019-03-20 09:27:19,244 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.16]
+""2019-03-20 09:27:19,258 INFO  [main] org.apache.catalina.core.AprLifecycleListener : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+""2019-03-20 09:27:19,393 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+""2019-03-20 09:27:19,394 DEBUG [main] org.springframework.web.context.ContextLoader : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+""2019-03-20 09:27:19,394 INFO  [main] org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 2741 ms
+""2019-03-20 09:27:19,650 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+""2019-03-20 09:27:19,908 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+""2019-03-20 09:27:19,970 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2019-03-20 09:27:20,023 INFO  [main] org.hibernate.Version : HHH000412: Hibernate Core {5.3.7.Final}
+""2019-03-20 09:27:20,025 INFO  [main] org.hibernate.cfg.Environment : HHH000206: hibernate.properties not found
+""2019-03-20 09:27:20,204 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+""2019-03-20 09:27:20,386 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2019-03-20 09:27:21,041 INFO  [main] org.hibernate.tool.schema.internal.SchemaCreatorImpl : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@3568ea59'
+""2019-03-20 09:27:21,044 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2019-03-20 09:27:21,475 DEBUG [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+""2019-03-20 09:27:21,727 INFO  [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+""2019-03-20 09:27:21,738 DEBUG [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+""2019-03-20 09:27:21,782 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2019-03-20 09:27:21,826 DEBUG [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+""2019-03-20 09:27:21,846 DEBUG [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+""2019-03-20 09:27:21,861 DEBUG [main] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+""2019-03-20 09:27:22,098 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+""2019-03-20 09:27:22,102 INFO  [main] com.stackroute.userservice.UserServiceApplication : Started UserServiceApplication in 6.788 seconds (JVM running for 7.627)
+""2019-03-20 09:27:27,870 INFO  [http-nio-8080-exec-3] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2019-03-20 09:27:27,871 INFO  [http-nio-8080-exec-3] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+""2019-03-20 09:27:27,871 DEBUG [http-nio-8080-exec-3] org.springframework.web.servlet.DispatcherServlet : Detected StandardServletMultipartResolver
+""2019-03-20 09:27:27,888 DEBUG [http-nio-8080-exec-3] org.springframework.web.servlet.DispatcherServlet : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+""2019-03-20 09:27:27,889 INFO  [http-nio-8080-exec-3] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 18 ms
+""2019-03-20 09:27:27,904 DEBUG [http-nio-8080-exec-3] org.springframework.web.servlet.DispatcherServlet : GET "/api/v1/users", parameters={}
+""2019-03-20 09:27:27,913 DEBUG [http-nio-8080-exec-3] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.List<com.stackroute.userservice.domain.User>> com.stackroute.userservice.controllers.UserController.getAllUsers()
+""2019-03-20 09:27:28,000 INFO  [http-nio-8080-exec-3] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator : HHH000397: Using ASTQueryTranslatorFactory
+""2019-03-20 09:27:28,164 INFO  [http-nio-8080-exec-3] com.stackroute.userservice.controllers.UserController : This is an info message
+""2019-03-20 09:27:28,165 WARN  [http-nio-8080-exec-3] com.stackroute.userservice.controllers.UserController : This is a warn message
+""2019-03-20 09:27:28,165 ERROR [http-nio-8080-exec-3] com.stackroute.userservice.controllers.UserController : This is an error message
+""2019-03-20 09:27:28,197 DEBUG [http-nio-8080-exec-3] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+""2019-03-20 09:27:28,198 DEBUG [http-nio-8080-exec-3] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Writing [[]]
+""2019-03-20 09:27:28,235 DEBUG [http-nio-8080-exec-3] org.springframework.web.servlet.DispatcherServlet : Completed 200 OK
+""2019-03-20 09:27:45,527 DEBUG [http-nio-8080-exec-2] org.springframework.web.servlet.DispatcherServlet : POST "/api/v1/user", parameters={}
+""2019-03-20 09:27:45,529 DEBUG [http-nio-8080-exec-2] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<com.stackroute.userservice.domain.User> com.stackroute.userservice.controllers.UserController.saveUser(com.stackroute.userservice.domain.User)
+""2019-03-20 09:27:45,626 DEBUG [http-nio-8080-exec-2] org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.stackroute.userservice.domain.User@2e1ea389]
+""2019-03-20 09:27:45,688 DEBUG [http-nio-8080-exec-2] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+""2019-03-20 09:27:45,688 DEBUG [http-nio-8080-exec-2] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Writing [com.stackroute.userservice.domain.User@3a583a0]
+""2019-03-20 09:27:45,693 DEBUG [http-nio-8080-exec-2] org.springframework.web.servlet.DispatcherServlet : Completed 200 OK
+""2019-03-20 09:27:58,328 DEBUG [http-nio-8080-exec-4] org.springframework.web.servlet.DispatcherServlet : POST "/api/v1/user", parameters={}
+""2019-03-20 09:27:58,328 DEBUG [http-nio-8080-exec-4] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<com.stackroute.userservice.domain.User> com.stackroute.userservice.controllers.UserController.saveUser(com.stackroute.userservice.domain.User)
+""2019-03-20 09:27:58,330 DEBUG [http-nio-8080-exec-4] org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.stackroute.userservice.domain.User@33ab913a]
+""2019-03-20 09:27:58,337 DEBUG [http-nio-8080-exec-4] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+""2019-03-20 09:27:58,339 DEBUG [http-nio-8080-exec-4] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Writing [com.stackroute.userservice.domain.User@7c516304]
+""2019-03-20 09:27:58,343 DEBUG [http-nio-8080-exec-4] org.springframework.web.servlet.DispatcherServlet : Completed 200 OK
+""2019-03-20 09:28:06,337 DEBUG [http-nio-8080-exec-5] org.springframework.web.servlet.DispatcherServlet : GET "/api/v1/users", parameters={}
+""2019-03-20 09:28:06,338 DEBUG [http-nio-8080-exec-5] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.List<com.stackroute.userservice.domain.User>> com.stackroute.userservice.controllers.UserController.getAllUsers()
+""2019-03-20 09:28:06,345 INFO  [http-nio-8080-exec-5] com.stackroute.userservice.controllers.UserController : This is an info message
+""2019-03-20 09:28:06,345 WARN  [http-nio-8080-exec-5] com.stackroute.userservice.controllers.UserController : This is a warn message
+""2019-03-20 09:28:06,345 ERROR [http-nio-8080-exec-5] com.stackroute.userservice.controllers.UserController : This is an error message
+""2019-03-20 09:28:06,346 DEBUG [http-nio-8080-exec-5] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+""2019-03-20 09:28:06,346 DEBUG [http-nio-8080-exec-5] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Writing [[com.stackroute.userservice.domain.User@29b89a5e, com.stackroute.userservice.domain.User@42d54c83]]
+""2019-03-20 09:28:06,350 DEBUG [http-nio-8080-exec-5] org.springframework.web.servlet.DispatcherServlet : Completed 200 OK
+""2019-03-20 09:28:45,289 DEBUG [http-nio-8080-exec-6] org.springframework.web.servlet.DispatcherServlet : GET "/api/v1/users", parameters={}
+""2019-03-20 09:28:45,290 DEBUG [http-nio-8080-exec-6] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.List<com.stackroute.userservice.domain.User>> com.stackroute.userservice.controllers.UserController.getAllUsers()
+""2019-03-20 09:28:45,297 INFO  [http-nio-8080-exec-6] com.stackroute.userservice.controllers.UserController : This is an info message
+""2019-03-20 09:28:45,298 WARN  [http-nio-8080-exec-6] com.stackroute.userservice.controllers.UserController : This is a warn message
+""2019-03-20 09:28:45,298 ERROR [http-nio-8080-exec-6] com.stackroute.userservice.controllers.UserController : This is an error message
+""2019-03-20 09:28:45,306 DEBUG [http-nio-8080-exec-6] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+""2019-03-20 09:28:45,306 DEBUG [http-nio-8080-exec-6] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Writing [[com.stackroute.userservice.domain.User@26bfadca, com.stackroute.userservice.domain.User@651cc5b8]]
+""2019-03-20 09:28:45,309 DEBUG [http-nio-8080-exec-6] org.springframework.web.servlet.DispatcherServlet : Completed 200 OK
+""2019-03-20 09:29:31,496 DEBUG [http-nio-8080-exec-7] org.springframework.web.servlet.DispatcherServlet : GET "/api/v1/users", parameters={}
+""2019-03-20 09:29:31,497 DEBUG [http-nio-8080-exec-7] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.List<com.stackroute.userservice.domain.User>> com.stackroute.userservice.controllers.UserController.getAllUsers()
+""2019-03-20 09:29:31,503 INFO  [http-nio-8080-exec-7] com.stackroute.userservice.controllers.UserController : This is an info message
+""2019-03-20 09:29:31,503 WARN  [http-nio-8080-exec-7] com.stackroute.userservice.controllers.UserController : This is a warn message
+""2019-03-20 09:29:31,503 ERROR [http-nio-8080-exec-7] com.stackroute.userservice.controllers.UserController : This is an error message
+""2019-03-20 09:29:31,505 DEBUG [http-nio-8080-exec-7] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+""2019-03-20 09:29:31,506 DEBUG [http-nio-8080-exec-7] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Writing [[com.stackroute.userservice.domain.User@6547b0d4, com.stackroute.userservice.domain.User@2e235529]]
+""2019-03-20 09:29:31,522 DEBUG [http-nio-8080-exec-7] org.springframework.web.servlet.DispatcherServlet : Completed 200 OK
+""2019-03-20 09:32:27,258 INFO  [Thread-2] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+""2019-03-20 09:32:27,259 INFO  [Thread-2] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+""2019-03-20 09:32:27,262 INFO  [Thread-2] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+""2019-03-20 09:32:27,273 INFO  [Thread-2] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+""2019-03-20 09:32:31,117 INFO  [main] com.stackroute.userservice.UserServiceApplication : Starting UserServiceApplication on IBMWAVE4-SAUKU with PID 5906 (/home/saurabh/Documents/user-service/target/classes started by saurabh in /home/saurabh/Documents/user-service)
+""2019-03-20 09:32:31,136 INFO  [main] com.stackroute.userservice.UserServiceApplication : No active profile set, falling back to default profiles: default
+""2019-03-20 09:32:32,742 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+""2019-03-20 09:32:32,838 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84ms. Found 1 repository interfaces.
+""2019-03-20 09:32:33,388 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$edbf20a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2019-03-20 09:32:33,948 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+""2019-03-20 09:32:34,001 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+""2019-03-20 09:32:34,002 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.16]
+""2019-03-20 09:32:34,017 INFO  [main] org.apache.catalina.core.AprLifecycleListener : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+""2019-03-20 09:32:34,168 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+""2019-03-20 09:32:34,168 DEBUG [main] org.springframework.web.context.ContextLoader : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+""2019-03-20 09:32:34,169 INFO  [main] org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 2882 ms
+""2019-03-20 09:32:34,368 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+""2019-03-20 09:32:34,601 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+""2019-03-20 09:32:34,676 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2019-03-20 09:32:34,746 INFO  [main] org.hibernate.Version : HHH000412: Hibernate Core {5.3.7.Final}
+""2019-03-20 09:32:34,748 INFO  [main] org.hibernate.cfg.Environment : HHH000206: hibernate.properties not found
+""2019-03-20 09:32:34,898 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+""2019-03-20 09:32:35,031 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2019-03-20 09:32:35,729 INFO  [main] org.hibernate.tool.schema.internal.SchemaCreatorImpl : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@18faaff6'
+""2019-03-20 09:32:35,731 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2019-03-20 09:32:36,201 DEBUG [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+""2019-03-20 09:32:36,515 INFO  [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+""2019-03-20 09:32:36,529 DEBUG [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+""2019-03-20 09:32:36,639 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2019-03-20 09:32:36,716 DEBUG [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+""2019-03-20 09:32:36,746 DEBUG [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+""2019-03-20 09:32:36,777 DEBUG [main] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+""2019-03-20 09:32:37,483 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+""2019-03-20 09:32:37,512 INFO  [main] com.stackroute.userservice.UserServiceApplication : Started UserServiceApplication in 7.352 seconds (JVM running for 8.196)
+""2019-03-20 09:32:47,264 INFO  [http-nio-8080-exec-2] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2019-03-20 09:32:47,265 INFO  [http-nio-8080-exec-2] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+""2019-03-20 09:32:47,266 DEBUG [http-nio-8080-exec-2] org.springframework.web.servlet.DispatcherServlet : Detected StandardServletMultipartResolver
+""2019-03-20 09:32:47,282 DEBUG [http-nio-8080-exec-2] org.springframework.web.servlet.DispatcherServlet : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+""2019-03-20 09:32:47,282 INFO  [http-nio-8080-exec-2] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 16 ms
+""2019-03-20 09:32:47,297 DEBUG [http-nio-8080-exec-2] org.springframework.web.servlet.DispatcherServlet : GET "/api/v1/users", parameters={}
+""2019-03-20 09:32:47,306 DEBUG [http-nio-8080-exec-2] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.List<com.stackroute.userservice.domain.User>> com.stackroute.userservice.controllers.UserController.getAllUsers()
+""2019-03-20 09:32:47,415 INFO  [http-nio-8080-exec-2] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator : HHH000397: Using ASTQueryTranslatorFactory
+""2019-03-20 09:32:47,591 DEBUG [http-nio-8080-exec-2] com.stackroute.userservice.controllers.UserController : This is a debug message
+""2019-03-20 09:32:47,591 INFO  [http-nio-8080-exec-2] com.stackroute.userservice.controllers.UserController : This is an info message
+""2019-03-20 09:32:47,592 WARN  [http-nio-8080-exec-2] com.stackroute.userservice.controllers.UserController : This is a warn message
+""2019-03-20 09:32:47,592 ERROR [http-nio-8080-exec-2] com.stackroute.userservice.controllers.UserController : This is an error message
+""2019-03-20 09:32:47,619 DEBUG [http-nio-8080-exec-2] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+""2019-03-20 09:32:47,620 DEBUG [http-nio-8080-exec-2] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Writing [[]]
+""2019-03-20 09:32:47,646 DEBUG [http-nio-8080-exec-2] org.springframework.web.servlet.DispatcherServlet : Completed 200 OK
+"

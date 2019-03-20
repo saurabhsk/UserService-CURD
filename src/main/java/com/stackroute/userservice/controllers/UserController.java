@@ -7,12 +7,14 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
+import lombok.extern.slf4j.Slf4j;
+
 
 import java.util.List;
 
 @RestController
 @RequestMapping("api/v1")
-
+@Slf4j
 public class UserController {
 
     private UserService userService;
@@ -39,6 +41,10 @@ public class UserController {
     @GetMapping("/users")
     public ResponseEntity<List<User>> getAllUsers(){
         List<User> allusers = userService.getAllUsers();
+        log.debug("This is a debug message");
+        log.info("This is an info message");
+        log.warn("This is a warn message");
+        log.error("This is an error message");
         return new ResponseEntity<>(allusers,HttpStatus.OK);
     }
 
